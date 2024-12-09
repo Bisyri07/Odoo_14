@@ -1,0 +1,23 @@
+nssm
+python
+sessions
+thirdparty
+vcredit
+Uninstall.exe
+note.txt
+Odoo_14/server/odoo.log
+.venv
+.idea
+vcredist
+
+# file yg ga penting di push ke github
+Odoo_14/server/CONTRIBUTING.md
+Odoo_14/server/COPYRIGHT
+Odoo_14/server/LICENSE
+Odoo_14/server/MANIFEST.in
+Odoo_14/server/odoo-bin
+Odoo_14/server/SECURITY.md
+Odoo_14/server/setup.cfg
+Odoo_14/server/setup.py
+package-lock.json
+package.json
