@@ -23,8 +23,17 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+
         'views/sale_type_view.xml',
+        'views/sale_order_view.xml',
+        'views/stock_picking_view.xml',
+        'views/account_move_view.xml',
+
         'views/main_menu.xml',
+
+        # data seeding
+        'data/sale.type.csv',
+
     ],
     # only loaded in demonstration mode
     'demo': [
