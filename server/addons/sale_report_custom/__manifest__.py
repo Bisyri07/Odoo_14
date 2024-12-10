@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sale_custom",
+    'name': "sale_report_custom",
 
     'summary': """
-        Sale Custom""",
+        Short (1 phrase/line) summary of the module's purpose, used as
+        subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Sale Custom 
+        Long description of module's purpose
     """,
     'application':True,
-    'sequence': 6,
+    'sequence': 7,
     'author': "Bisyri",
     'website': "http://www.yourcompany.com",
 
@@ -20,7 +21,7 @@
     'version': '1.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale', 'account'],
+    'depends': ['base','sale', 'stock', 'account'],
 
     # always loaded
     'data': [
