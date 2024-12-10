@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+	<menuitem id="menu_sale_type"
+	          name="Sale Type"
+	          parent="sale.menu_sale_config"
+	          action="sale_type_action"
+	          sequence="1">
+	</menuitem>
+</odoo>

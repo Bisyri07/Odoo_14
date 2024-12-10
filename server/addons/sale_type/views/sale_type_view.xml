@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <!-- view tree -->
+    <record id="sale_type_tree" model="ir.ui.view">
+      <field name="name">Sale Type</field>
+      <field name="model">sale.type</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+    <!-- action -->
+    <record id="sale_type_action" model="ir.actions.act_window">
+      <field name="name">Sale Type</field>
+      <field name="res_model">sale.type</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    <!-- form -->
+
+  </data>
+</odoo>

@@ -8,6 +8,8 @@
 
     'author': "Bisyri",
     'website': "http://www.yourcompany.com",
+    'application':True,
+    'sequence': 5,
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -16,13 +18,13 @@
     'version': '1.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'sale', 'stock', 'account'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'security/ir.model.access.csv',
+        'views/sale_type_view.xml',
+        'views/main_menu.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
